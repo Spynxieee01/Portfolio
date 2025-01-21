@@ -1,5 +1,5 @@
 import '../assets/styles/hero.css'
-import portfolioImage from '../assets/images/hero-img.png'; // Replace with the path to your image
+import portfolioImage from '../assets/images/hero-img.png';
 
 
 const Hero = () => {
