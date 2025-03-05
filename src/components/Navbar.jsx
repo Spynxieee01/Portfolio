@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom"; // Import Link from React Router
+import { Link } from "react-router-dom";
 import '../assets/styles/navbar.css';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,12 +7,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <Link to="/" className="nav-logo">John Mark</Link> {/* Fix: Use Link */}
+        <Link to="/" className="nav-logo">John Mark</Link>
         
         <div className={`nav-links ${isOpen ? "open" : ""}`}>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
-          <li><a href="#projects">Projects</a></li> {/* Keep as <a> for sections */}
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li> 
         </div>
 

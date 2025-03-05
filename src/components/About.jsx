@@ -1,11 +1,9 @@
-import '../assets/styles/about.css'
+import '../assets/styles/about.css';
 import profileImage from '../assets/images/about-img.jpg';
-import Navbar from "./Navbar"
 
 const About = () => {
   return (
     <section className="about-container">
-        <Navbar/>
       <div className="about-inner">
         <div className="about-image">
           <img className="about-img" src={profileImage} alt="About Me" />
